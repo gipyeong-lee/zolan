@@ -1,8 +1,8 @@
 Gem::Specification.new do |spec|
-  spec.name                    = "portfolyou-jekyll-theme"
+  spec.name                    = "zolan-jekyll-theme"
   spec.version                 = "2.2.2"
-  spec.authors                 = ["Youssef Raafat"]
-  spec.email                   = ["YoussefRaafatNasry@gmail.com"]
+  spec.authors                 = ["zolan"]
+  spec.email                   = ["zolan@gmail.com"]
 
   spec.summary                 = "A beautiful blog Jekyll theme."
   spec.homepage                = "https://github.com/artemsheludko/zolan"
@@ -21,5 +21,6 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll-include-cache", "~> 0.1"
   spec.add_runtime_dependency "jekyll-sitemap", "~>1.4.0"
   spec.add_runtime_dependency "jemoji", "~> 0.11"
+  spec.add_runtime_dependency "jekyll-sass-converter", "~> 3.0.0"
 
 end
